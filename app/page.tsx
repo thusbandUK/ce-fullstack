@@ -1,9 +1,9 @@
-
+import Link from "next/link"
 
 export default function Page() {
     return (
         <main>
-            <p>Hello</p>
+            <Link href="/flashcards">Click here for flashcards</Link>
         </main>
 
     )
